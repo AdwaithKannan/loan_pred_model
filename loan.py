@@ -48,6 +48,6 @@ if st.button('Check Loan Status'):
     else:
         st.error('❌ Loan Not Approved.')
 
-# Display Model Accuracy
+#changed comment
 st.write("---")
 st.write(f"Model Accuracy: {model.score(X_test, y_test) * 100:.2f}%")
